@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A84E3CD1E579EF400D22551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3CC1E579EF400D22551 /* main.m */; };
+		6A84E3D01E579EF400D22551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3CF1E579EF400D22551 /* AppDelegate.m */; };
+		6A84E3D31E579EF400D22551 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3D21E579EF400D22551 /* ViewController.m */; };
+		6A84E3D61E579EF400D22551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A84E3D41E579EF400D22551 /* Main.storyboard */; };
+		6A84E3D81E579EF400D22551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A84E3D71E579EF400D22551 /* Assets.xcassets */; };
+		6A84E3DB1E579EF400D22551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A84E3D91E579EF400D22551 /* LaunchScreen.storyboard */; };
+		6A84E3E61E579EF400D22551 /* DNBProtocolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3E51E579EF400D22551 /* DNBProtocolsTests.m */; };
+		6A84E3F11E579EF400D22551 /* DNBProtocolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E3F01E579EF400D22551 /* DNBProtocolsUITests.m */; };
+		6A84E4131E579F8D00D22551 /* PTCLSocialAuthenticate_Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E40D1E579F8D00D22551 /* PTCLSocialAuthenticate_Session.m */; };
+		6A84E4141E579F8D00D22551 /* PTCLSocialAuthenticate_User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E40F1E579F8D00D22551 /* PTCLSocialAuthenticate_User.m */; };
+		6A84E4221E57A50200D22551 /* __WKR_Base_Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A84E4211E57A50200D22551 /* __WKR_Base_Worker.m */; };
+		D22A513C17A098AFE11854DC /* Pods_DNBProtocols.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819AF6E1B25B6B078A11E0F /* Pods_DNBProtocols.framework */; };
+		E68B3005090B27A07B0D4526 /* Pods_DNBProtocolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A0A8938257AC323860E72C /* Pods_DNBProtocolsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A84E3E21E579EF400D22551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A84E3C01E579EF300D22551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A84E3C71E579EF300D22551;
+			remoteInfo = DNBProtocols;
+		};
+		6A84E3ED1E579EF400D22551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A84E3C01E579EF300D22551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A84E3C71E579EF300D22551;
+			remoteInfo = DNBProtocols;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1819AF6E1B25B6B078A11E0F /* Pods_DNBProtocols.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNBProtocols.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA048207422B407052F03CD /* Pods-DNBProtocols.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNBProtocols.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DNBProtocols/Pods-DNBProtocols.debug.xcconfig"; sourceTree = "<group>"; };
+		26A0A8938257AC323860E72C /* Pods_DNBProtocolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNBProtocolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2965B2AD594926B14396ED3F /* Pods-DNBProtocolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNBProtocolsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNBProtocolsTests/Pods-DNBProtocolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A84E3C81E579EF300D22551 /* DNBProtocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNBProtocols.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A84E3CC1E579EF400D22551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A84E3CE1E579EF400D22551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A84E3CF1E579EF400D22551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A84E3D11E579EF400D22551 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A84E3D21E579EF400D22551 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A84E3D51E579EF400D22551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A84E3D71E579EF400D22551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A84E3DA1E579EF400D22551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A84E3DC1E579EF400D22551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A84E3E11E579EF400D22551 /* DNBProtocolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNBProtocolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A84E3E51E579EF400D22551 /* DNBProtocolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNBProtocolsTests.m; sourceTree = "<group>"; };
+		6A84E3E71E579EF400D22551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A84E3EC1E579EF400D22551 /* DNBProtocolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNBProtocolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A84E3F01E579EF400D22551 /* DNBProtocolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNBProtocolsUITests.m; sourceTree = "<group>"; };
+		6A84E3F21E579EF400D22551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A84E4021E579F8400D22551 /* PTCLCollectionViewDataSource_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLCollectionViewDataSource_Protocol.h; path = "Classes/Misc Protocols/PTCLCollectionViewDataSource_Protocol.h"; sourceTree = "<group>"; };
+		6A84E4031E579F8400D22551 /* PTCLCollectionViewDelegate_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLCollectionViewDelegate_Protocol.h; path = "Classes/Misc Protocols/PTCLCollectionViewDelegate_Protocol.h"; sourceTree = "<group>"; };
+		6A84E4041E579F8400D22551 /* PTCLState_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLState_Protocol.h; path = "Classes/Misc Protocols/PTCLState_Protocol.h"; sourceTree = "<group>"; };
+		6A84E4051E579F8D00D22551 /* __PTCLBase_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = __PTCLBase_Protocol.h; path = "Classes/Worker Protocols/__PTCLBase_Protocol.h"; sourceTree = "<group>"; };
+		6A84E4061E579F8D00D22551 /* PTCLAnalytics_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLAnalytics_Protocol.h; path = "Classes/Worker Protocols/PTCLAnalytics_Protocol.h"; sourceTree = "<group>"; };
+		6A84E4071E579F8D00D22551 /* PTCLCache_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLCache_Protocol.h; path = "Classes/Worker Protocols/PTCLCache_Protocol.h"; sourceTree = "<group>"; };
+		6A84E4081E579F8D00D22551 /* PTCLFile_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLFile_Protocol.h; path = "Classes/Worker Protocols/PTCLFile_Protocol.h"; sourceTree = "<group>"; };
+		6A84E4091E579F8D00D22551 /* PTCLMediaLibrary_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLMediaLibrary_Protocol.h; path = "Classes/Worker Protocols/PTCLMediaLibrary_Protocol.h"; sourceTree = "<group>"; };
+		6A84E40A1E579F8D00D22551 /* PTCLPasswordStrength_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLPasswordStrength_Protocol.h; path = "Classes/Worker Protocols/PTCLPasswordStrength_Protocol.h"; sourceTree = "<group>"; };
+		6A84E40B1E579F8D00D22551 /* PTCLSocialAuthenticate_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLSocialAuthenticate_Protocol.h; path = "Classes/Worker Protocols/PTCLSocialAuthenticate_Protocol.h"; sourceTree = "<group>"; };
+		6A84E40C1E579F8D00D22551 /* PTCLSocialAuthenticate_Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLSocialAuthenticate_Session.h; path = "Classes/Worker Protocols/PTCLSocialAuthenticate_Session.h"; sourceTree = "<group>"; };
+		6A84E40D1E579F8D00D22551 /* PTCLSocialAuthenticate_Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTCLSocialAuthenticate_Session.m; path = "Classes/Worker Protocols/PTCLSocialAuthenticate_Session.m"; sourceTree = "<group>"; };
+		6A84E40E1E579F8D00D22551 /* PTCLSocialAuthenticate_User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLSocialAuthenticate_User.h; path = "Classes/Worker Protocols/PTCLSocialAuthenticate_User.h"; sourceTree = "<group>"; };
+		6A84E40F1E579F8D00D22551 /* PTCLSocialAuthenticate_User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTCLSocialAuthenticate_User.m; path = "Classes/Worker Protocols/PTCLSocialAuthenticate_User.m"; sourceTree = "<group>"; };
+		6A84E4101E579F8D00D22551 /* PTCLSocialShare_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLSocialShare_Protocol.h; path = "Classes/Worker Protocols/PTCLSocialShare_Protocol.h"; sourceTree = "<group>"; };
+		6A84E4111E579F8D00D22551 /* PTCLUserIdentification_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLUserIdentification_Protocol.h; path = "Classes/Worker Protocols/PTCLUserIdentification_Protocol.h"; sourceTree = "<group>"; };
+		6A84E4121E579F8D00D22551 /* PTCLValidation_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTCLValidation_Protocol.h; path = "Classes/Worker Protocols/PTCLValidation_Protocol.h"; sourceTree = "<group>"; };
+		6A84E4151E579FB700D22551 /* DEVNOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DEVNOTES.md; sourceTree = "<group>"; };
+		6A84E4161E579FB700D22551 /* DNBProtocols.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DNBProtocols.podspec; sourceTree = "<group>"; };
+		6A84E4171E579FB700D22551 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		6A84E4191E579FB700D22551 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6A84E41A1E579FB700D22551 /* StyleSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StyleSettings.plist; sourceTree = "<group>"; };
+		6A84E41B1E579FBE00D22551 /* main.fauxpas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = main.fauxpas.json; path = FauxPasConfig/main.fauxpas.json; sourceTree = "<group>"; };
+		6A84E4201E57A50200D22551 /* __WKR_Base_Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = __WKR_Base_Worker.h; path = Classes/__WKR_Base_Worker.h; sourceTree = "<group>"; };
+		6A84E4211E57A50200D22551 /* __WKR_Base_Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = __WKR_Base_Worker.m; path = Classes/__WKR_Base_Worker.m; sourceTree = "<group>"; };
+		8F3DA7BD11F4B0601B351107 /* Pods-DNBProtocolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNBProtocolsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DNBProtocolsTests/Pods-DNBProtocolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4169512767B2BBB5FC67C16 /* Pods-DNBProtocols.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNBProtocols.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNBProtocols/Pods-DNBProtocols.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A84E3C51E579EF300D22551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22A513C17A098AFE11854DC /* Pods_DNBProtocols.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3DE1E579EF400D22551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68B3005090B27A07B0D4526 /* Pods_DNBProtocolsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3E91E579EF400D22551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B93B1E77E0770931EF8A2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1819AF6E1B25B6B078A11E0F /* Pods_DNBProtocols.framework */,
+				26A0A8938257AC323860E72C /* Pods_DNBProtocolsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A84E3BF1E579EF300D22551 = {
+			isa = PBXGroup;
+			children = (
+				6A84E3FE1E579F1C00D22551 /* Cocoapod */,
+				6A84E3CA1E579EF400D22551 /* DNBProtocols */,
+				6A84E3E41E579EF400D22551 /* DNBProtocolsTests */,
+				6A84E3EF1E579EF400D22551 /* DNBProtocolsUITests */,
+				6A84E3C91E579EF300D22551 /* Products */,
+				A8542F6B48C95D9A9CBE29F5 /* Pods */,
+				11B93B1E77E0770931EF8A2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A84E3C91E579EF300D22551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3C81E579EF300D22551 /* DNBProtocols.app */,
+				6A84E3E11E579EF400D22551 /* DNBProtocolsTests.xctest */,
+				6A84E3EC1E579EF400D22551 /* DNBProtocolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A84E3CA1E579EF400D22551 /* DNBProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3CE1E579EF400D22551 /* AppDelegate.h */,
+				6A84E3CF1E579EF400D22551 /* AppDelegate.m */,
+				6A84E3D11E579EF400D22551 /* ViewController.h */,
+				6A84E3D21E579EF400D22551 /* ViewController.m */,
+				6A84E3D41E579EF400D22551 /* Main.storyboard */,
+				6A84E3D71E579EF400D22551 /* Assets.xcassets */,
+				6A84E3D91E579EF400D22551 /* LaunchScreen.storyboard */,
+				6A84E3DC1E579EF400D22551 /* Info.plist */,
+				6A84E3CB1E579EF400D22551 /* Supporting Files */,
+			);
+			path = DNBProtocols;
+			sourceTree = "<group>";
+		};
+		6A84E3CB1E579EF400D22551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3CC1E579EF400D22551 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A84E3E41E579EF400D22551 /* DNBProtocolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3E51E579EF400D22551 /* DNBProtocolsTests.m */,
+				6A84E3E71E579EF400D22551 /* Info.plist */,
+			);
+			path = DNBProtocolsTests;
+			sourceTree = "<group>";
+		};
+		6A84E3EF1E579EF400D22551 /* DNBProtocolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E3F01E579EF400D22551 /* DNBProtocolsUITests.m */,
+				6A84E3F21E579EF400D22551 /* Info.plist */,
+			);
+			path = DNBProtocolsUITests;
+			sourceTree = "<group>";
+		};
+		6A84E3FE1E579F1C00D22551 /* Cocoapod */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E4171E579FB700D22551 /* LICENSE.txt */,
+				6A84E4191E579FB700D22551 /* README.md */,
+				6A84E4151E579FB700D22551 /* DEVNOTES.md */,
+				6A84E4161E579FB700D22551 /* DNBProtocols.podspec */,
+				6A84E41A1E579FB700D22551 /* StyleSettings.plist */,
+				6A84E41B1E579FBE00D22551 /* main.fauxpas.json */,
+				6A84E3FF1E579F2100D22551 /* Classes */,
+			);
+			name = Cocoapod;
+			sourceTree = "<group>";
+		};
+		6A84E3FF1E579F2100D22551 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E4201E57A50200D22551 /* __WKR_Base_Worker.h */,
+				6A84E4211E57A50200D22551 /* __WKR_Base_Worker.m */,
+				6A84E4001E579F6300D22551 /* Misc Protocols */,
+				6A84E4011E579F6B00D22551 /* Worker Protocols */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6A84E4001E579F6300D22551 /* Misc Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E4021E579F8400D22551 /* PTCLCollectionViewDataSource_Protocol.h */,
+				6A84E4031E579F8400D22551 /* PTCLCollectionViewDelegate_Protocol.h */,
+				6A84E4041E579F8400D22551 /* PTCLState_Protocol.h */,
+			);
+			name = "Misc Protocols";
+			sourceTree = "<group>";
+		};
+		6A84E4011E579F6B00D22551 /* Worker Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6A84E4051E579F8D00D22551 /* __PTCLBase_Protocol.h */,
+				6A84E4061E579F8D00D22551 /* PTCLAnalytics_Protocol.h */,
+				6A84E4071E579F8D00D22551 /* PTCLCache_Protocol.h */,
+				6A84E4081E579F8D00D22551 /* PTCLFile_Protocol.h */,
+				6A84E4091E579F8D00D22551 /* PTCLMediaLibrary_Protocol.h */,
+				6A84E40A1E579F8D00D22551 /* PTCLPasswordStrength_Protocol.h */,
+				6A84E40B1E579F8D00D22551 /* PTCLSocialAuthenticate_Protocol.h */,
+				6A84E40C1E579F8D00D22551 /* PTCLSocialAuthenticate_Session.h */,
+				6A84E40D1E579F8D00D22551 /* PTCLSocialAuthenticate_Session.m */,
+				6A84E40E1E579F8D00D22551 /* PTCLSocialAuthenticate_User.h */,
+				6A84E40F1E579F8D00D22551 /* PTCLSocialAuthenticate_User.m */,
+				6A84E4101E579F8D00D22551 /* PTCLSocialShare_Protocol.h */,
+				6A84E4111E579F8D00D22551 /* PTCLUserIdentification_Protocol.h */,
+				6A84E4121E579F8D00D22551 /* PTCLValidation_Protocol.h */,
+			);
+			name = "Worker Protocols";
+			sourceTree = "<group>";
+		};
+		A8542F6B48C95D9A9CBE29F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DA048207422B407052F03CD /* Pods-DNBProtocols.debug.xcconfig */,
+				C4169512767B2BBB5FC67C16 /* Pods-DNBProtocols.release.xcconfig */,
+				8F3DA7BD11F4B0601B351107 /* Pods-DNBProtocolsTests.debug.xcconfig */,
+				2965B2AD594926B14396ED3F /* Pods-DNBProtocolsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A84E3C71E579EF300D22551 /* DNBProtocols */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A84E3F51E579EF400D22551 /* Build configuration list for PBXNativeTarget "DNBProtocols" */;
+			buildPhases = (
+				75639325BB4660628BE6E4AA /* [CP] Check Pods Manifest.lock */,
+				6A84E3C41E579EF300D22551 /* Sources */,
+				6A84E41C1E57A13100D22551 /* Objective-Clean */,
+				6A84E3C51E579EF300D22551 /* Frameworks */,
+				6A84E3C61E579EF300D22551 /* Resources */,
+				6A84E41D1E57A14D00D22551 /* FauxPas Checker */,
+				A5497E5FCA41EB52026EE577 /* [CP] Embed Pods Frameworks */,
+				FEC05594E6C785722E5438A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNBProtocols;
+			productName = DNBProtocols;
+			productReference = 6A84E3C81E579EF300D22551 /* DNBProtocols.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A84E3E01E579EF400D22551 /* DNBProtocolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A84E3F81E579EF400D22551 /* Build configuration list for PBXNativeTarget "DNBProtocolsTests" */;
+			buildPhases = (
+				C84A818306C4F2CBB21A7523 /* [CP] Check Pods Manifest.lock */,
+				6A84E3DD1E579EF400D22551 /* Sources */,
+				6A84E3DE1E579EF400D22551 /* Frameworks */,
+				6A84E3DF1E579EF400D22551 /* Resources */,
+				935C9A5D30A8D9ABC1D520B0 /* [CP] Embed Pods Frameworks */,
+				D2915B38D33CC6245BD30DEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A84E3E31E579EF400D22551 /* PBXTargetDependency */,
+			);
+			name = DNBProtocolsTests;
+			productName = DNBProtocolsTests;
+			productReference = 6A84E3E11E579EF400D22551 /* DNBProtocolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A84E3EB1E579EF400D22551 /* DNBProtocolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A84E3FB1E579EF400D22551 /* Build configuration list for PBXNativeTarget "DNBProtocolsUITests" */;
+			buildPhases = (
+				6A84E3E81E579EF400D22551 /* Sources */,
+				6A84E3E91E579EF400D22551 /* Frameworks */,
+				6A84E3EA1E579EF400D22551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A84E3EE1E579EF400D22551 /* PBXTargetDependency */,
+			);
+			name = DNBProtocolsUITests;
+			productName = DNBProtocolsUITests;
+			productReference = 6A84E3EC1E579EF400D22551 /* DNBProtocolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A84E3C01E579EF300D22551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DNB;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DoubleNode.com;
+				TargetAttributes = {
+					6A84E3C71E579EF300D22551 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T864D3RXRZ;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					6A84E3E01E579EF400D22551 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T864D3RXRZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A84E3C71E579EF300D22551;
+					};
+					6A84E3EB1E579EF400D22551 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T864D3RXRZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A84E3C71E579EF300D22551;
+					};
+				};
+			};
+			buildConfigurationList = 6A84E3C31E579EF300D22551 /* Build configuration list for PBXProject "DNBProtocols" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A84E3BF1E579EF300D22551;
+			productRefGroup = 6A84E3C91E579EF300D22551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A84E3C71E579EF300D22551 /* DNBProtocols */,
+				6A84E3E01E579EF400D22551 /* DNBProtocolsTests */,
+				6A84E3EB1E579EF400D22551 /* DNBProtocolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A84E3C61E579EF300D22551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A84E3DB1E579EF400D22551 /* LaunchScreen.storyboard in Resources */,
+				6A84E3D81E579EF400D22551 /* Assets.xcassets in Resources */,
+				6A84E3D61E579EF400D22551 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3DF1E579EF400D22551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3EA1E579EF400D22551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A84E41C1E57A13100D22551 /* Objective-Clean */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Objective-Clean";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "[[ ${SKIP_OBJCLEAN} == 1 ]] && exit 0\n \n OBJCLEAN_PATH=\"${LOCAL_APPS_DIR}/Objective-Clean.app\"\n if [[ -d \"${OBJCLEAN_PATH}\" ]]; then\n echo \"${OBJCLEAN_PATH}\"/Contents/Resources/ObjClean.app/Contents/MacOS/ObjClean \"${SRCROOT}\"?!Pods,!Rollout-ios-SDK,!BuddyBuildSDK.framework,!Crashlytics.framework,!Fabric.framework,!Optimizely.framework,!DigitsKit.framework,!TwitterKit.framework,!TwitterCore.framework,!PocketBrew/Vendors\n \"${OBJCLEAN_PATH}\"/Contents/Resources/ObjClean.app/Contents/MacOS/ObjClean \"${SRCROOT}\"?!Pods,!Rollout-ios-SDK,!BuddyBuildSDK.framework,!Crashlytics.framework,!Fabric.framework,!Optimizely.framework,!DigitsKit.framework,!TwitterKit.framework,!TwitterCore.framework,!PocketBrew/Vendors\n else\n echo \"warning: Objective-Clean was not found at '${OBJCLEAN_PATH}'\"\n fi\n";
+		};
+		6A84E41D1E57A14D00D22551 /* FauxPas Checker */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "FauxPas Checker";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "[[ ${FAUXPAS_SKIP} == 1 ]] && exit 0\n \n FAUXPAS_PATH=\"/usr/local/bin/fauxpas\"\n if [[ -f \"${FAUXPAS_PATH}\" ]]; then\n echo \"${FAUXPAS_PATH}\" check-xcode -c \"${SRCROOT}/FauxPasConfig/main.fauxpas.json\"\n \"${FAUXPAS_PATH}\" check-xcode -c \"${SRCROOT}/FauxPasConfig/main.fauxpas.json\"\n else\n echo \"warning: Faux Pas was not found at '${FAUXPAS_PATH}'\"\n fi\n";
+		};
+		75639325BB4660628BE6E4AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		935C9A5D30A8D9ABC1D520B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNBProtocolsTests/Pods-DNBProtocolsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5497E5FCA41EB52026EE577 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNBProtocols/Pods-DNBProtocols-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84A818306C4F2CBB21A7523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2915B38D33CC6245BD30DEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNBProtocolsTests/Pods-DNBProtocolsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEC05594E6C785722E5438A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNBProtocols/Pods-DNBProtocols-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A84E3C41E579EF300D22551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A84E3D31E579EF400D22551 /* ViewController.m in Sources */,
+				6A84E3D01E579EF400D22551 /* AppDelegate.m in Sources */,
+				6A84E4131E579F8D00D22551 /* PTCLSocialAuthenticate_Session.m in Sources */,
+				6A84E4221E57A50200D22551 /* __WKR_Base_Worker.m in Sources */,
+				6A84E3CD1E579EF400D22551 /* main.m in Sources */,
+				6A84E4141E579F8D00D22551 /* PTCLSocialAuthenticate_User.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3DD1E579EF400D22551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A84E3E61E579EF400D22551 /* DNBProtocolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A84E3E81E579EF400D22551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A84E3F11E579EF400D22551 /* DNBProtocolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A84E3E31E579EF400D22551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A84E3C71E579EF300D22551 /* DNBProtocols */;
+			targetProxy = 6A84E3E21E579EF400D22551 /* PBXContainerItemProxy */;
+		};
+		6A84E3EE1E579EF400D22551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A84E3C71E579EF300D22551 /* DNBProtocols */;
+			targetProxy = 6A84E3ED1E579EF400D22551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A84E3D41E579EF400D22551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A84E3D51E579EF400D22551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A84E3D91E579EF400D22551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A84E3DA1E579EF400D22551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A84E3F31E579EF400D22551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A84E3F41E579EF400D22551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A84E3F61E579EF400D22551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA048207422B407052F03CD /* Pods-DNBProtocols.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBProtocols/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBProtocols;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A84E3F71E579EF400D22551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4169512767B2BBB5FC67C16 /* Pods-DNBProtocols.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBProtocols/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBProtocols;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6A84E3F91E579EF400D22551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3DA7BD11F4B0601B351107 /* Pods-DNBProtocolsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBProtocolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBProtocolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNBProtocols.app/DNBProtocols";
+			};
+			name = Debug;
+		};
+		6A84E3FA1E579EF400D22551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2965B2AD594926B14396ED3F /* Pods-DNBProtocolsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBProtocolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBProtocolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNBProtocols.app/DNBProtocols";
+			};
+			name = Release;
+		};
+		6A84E3FC1E579EF400D22551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBProtocolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBProtocolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNBProtocols;
+			};
+			name = Debug;
+		};
+		6A84E3FD1E579EF400D22551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T864D3RXRZ;
+				INFOPLIST_FILE = DNBProtocolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DoubleNode.DNBProtocolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNBProtocols;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A84E3C31E579EF300D22551 /* Build configuration list for PBXProject "DNBProtocols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A84E3F31E579EF400D22551 /* Debug */,
+				6A84E3F41E579EF400D22551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A84E3F51E579EF400D22551 /* Build configuration list for PBXNativeTarget "DNBProtocols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A84E3F61E579EF400D22551 /* Debug */,
+				6A84E3F71E579EF400D22551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A84E3F81E579EF400D22551 /* Build configuration list for PBXNativeTarget "DNBProtocolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A84E3F91E579EF400D22551 /* Debug */,
+				6A84E3FA1E579EF400D22551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A84E3FB1E579EF400D22551 /* Build configuration list for PBXNativeTarget "DNBProtocolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A84E3FC1E579EF400D22551 /* Debug */,
+				6A84E3FD1E579EF400D22551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A84E3C01E579EF300D22551 /* Project object */;
+}
